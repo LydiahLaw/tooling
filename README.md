@@ -28,3 +28,5 @@ The project leverages the following technologies:
 | Docker Tag | GitHub Release | Nginx Version | PHP Version | Ubuntu Version |
 |-----|-------|-----|--------|--------|
 | latest | master Branch |1.17.2 | 8.3 | Latest |
+
+First jenkins build added
