@@ -31,4 +31,6 @@ The project leverages the following technologies:
 
 Adding these
 - Another trial
+- These are new changes to test automatic build in jenkins
+- NFS server connected
 
