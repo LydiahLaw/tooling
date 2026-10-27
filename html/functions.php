@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('127.0.0.1', 'admin', 'admin', 'tooling');
+$db = mysqli_connect(getenv('DB_HOST') ?: '127.0.0.1', getenv('DB_USER') ?: 'admin', getenv('DB_PASSWORD') ?: 'admin', getenv('DB_NAME') ?: 'tooling');
 
 // Check connection
 // if (mysqli_connect_errno()) {
